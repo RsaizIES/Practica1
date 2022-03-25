@@ -17,6 +17,14 @@ public class Persona {
       nombre = nom;
    }
 
+   public void setPoblaciob (String poblacion){
+      problacion = null;
+   }
+
+    public String getPoblacion(){
+      return problacion;
+   }
+
    public void setEdad(int ed){
       edad = ed;
    }
