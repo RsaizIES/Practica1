@@ -1,10 +1,12 @@
 public class Persona {
    private String nombre;
    private int edad;
+   private int poblacion;
 
-   public Persona(String nombre,int edad){
+   public Persona(String nombre,int edad, int poblacion){
       this.nombre = nombre;
-      this.edad = edad;	
+      this.edad = edad;
+      this.poblacion = poblacion;
    }
 	
    public Persona() {
